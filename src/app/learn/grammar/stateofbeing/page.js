@@ -21,17 +21,17 @@ const StateOfBeing = () => {
                 <h4 className="examples-head">Examples</h4>
                 <ol>
                     <li>
-                        <span title="insaan - human" class="popup">इंसान</span> <em>है</em> ।
+                        <span title="insaan - human" className="popup">इंसान</span> <em>है</em> ।
                         <br />
                         Is human.
                     </li>
                     <li>
-                        <span title="sundar - beautiful" class="popup">सुंदर</span> <em>है</em> ।
+                        <span title="sundar - beautiful" className="popup">सुंदर</span> <em>है</em> ।
                         <br />
                         Is beautiful.
                     </li>
                     <li>
-                        <span title="theek - okay/alright" class="popup">ठीक</span> <em>है</em> ।
+                        <span title="theek - okay/alright" className="popup">ठीक</span> <em>है</em> ।
                         <br />
                         Is okay.
                     </li>
@@ -46,17 +46,17 @@ const StateOfBeing = () => {
                 <h4 className="examples-head">Examples</h4>
                 <ol>
                     <li>
-                        <span title="insaan - human" class="popup">इंसान</span> <em>नहीं है</em> ।
+                        <span title="insaan - human" className="popup">इंसान</span> <em>नहीं है</em> ।
                         <br />
                         Is not human.
                     </li>
                     <li>
-                        <span title="sundar - beautiful" class="popup">सुंदर</span> <em>नहीं है</em> ।
+                        <span title="sundar - beautiful" className="popup">सुंदर</span> <em>नहीं है</em> ।
                         <br />
                         Is not beautiful.
                     </li>
                     <li>
-                        <span title="theek - okay/alright" class="popup">ठीक</span> <em>नहीं है</em> ।
+                        <span title="theek - okay/alright" className="popup">ठीक</span> <em>नहीं है</em> ।
                         <br />
                         Is not okay.
                     </li>
@@ -70,17 +70,17 @@ const StateOfBeing = () => {
                 <h4 className="examples-head">Examples</h4>
                 <ol>
                     <li>
-                        <span title="insaan - human" class="popup">इंसान</span> <em>था</em> ।
+                        <span title="insaan - human" className="popup">इंसान</span> <em>था</em> ।
                         <br />
                         Was human.
                     </li>
                     <li>
-                        <span title="sundar - beautiful" class="popup">सुंदर</span> <em>नहीं था</em> ।
+                        <span title="sundar - beautiful" className="popup">सुंदर</span> <em>नहीं था</em> ।
                         <br />
                         Was not beautiful.
                     </li>
                     <li>
-                        <span title="theek - okay/alright" class="popup">ठीक</span> <em>था</em> ।
+                        <span title="theek - okay/alright" className="popup">ठीक</span> <em>था</em> ।
                         <br />
                         Was okay.
                     </li>
