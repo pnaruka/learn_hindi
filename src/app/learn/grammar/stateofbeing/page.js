@@ -3,7 +3,14 @@ import ExampleList from "@/app/_components/ExampleList"
 import VocabList from "@/app/_components/VocabList"
 
 const StateOfBeing = () => {
-    const vocabulary = ["इंसान [insaan] - human", "सुंदर [sundar] - beautiful", "ठीक [theek] - okay/alright", "पागल [paagal] - crazy/mad", "नहीं [nahin] - no/not", "होना [hona] - to be/to become"]
+    const vocab = [{word:'इंसान', reading:'insaan', meaning:'human'},
+        {word:'सुंदर', reading:'sundar', meaning:'beautiful'},
+        {word:'ठीक', reading:'theek', meaning:'okay/alright'},
+        {word:'पागल', reading:'paagal', meaning:'crazy/mad'},
+        {word:'नहीं', reading:'nahin', meaning:'no/not'},
+        {word:'होना', reading:'hona', meaning:'to be/to become'}
+    ];
+    
     const presentPosEg = [{ sentence: <><span title="insaan - human" className="popup">इंसान</span> <em>है</em> ।</>, translation: "(He/She/That/It) is human." },
     { sentence: <><span title="sundar - beautiful" className="popup">सुंदर</span> <em>हैं</em> ।</>, translation: "(We/They/You) are beautiful." },
     { sentence: <><span title="theek - okay/alright" className="popup">ठीक</span> <em>हूँ</em> ।</>, translation: "(I) am okay." },
@@ -26,7 +33,7 @@ const StateOfBeing = () => {
                 <h3 className="section-heading">Expressing "to be" with different conjugations of verb "होना"</h3>
                 <div className="vocab sub-section">
                     <h4 className="vocab-head sub-section-heading">Vocabulary</h4>
-                    <VocabList className="vocab-body" items={vocabulary} />
+                    <VocabList className="vocab-body" items={vocab} />
                 </div>
                 <div className="rules">
                     <p>To say that <em>'He/She/That/It</em> is', add <em>है</em> after the noun or adjective.</p>
