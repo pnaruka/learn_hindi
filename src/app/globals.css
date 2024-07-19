@@ -22,3 +22,31 @@
     text-wrap: balance;
   }
 }
+
+body {
+  @apply bg-gray-50;
+}
+
+em {
+  @apply text-red-500;
+}
+
+.page-heading{
+  @apply text-3xl font-bold p-4;
+}
+
+.sub-heading{
+  @apply text-xl font-medium;
+}
+
+.tool-heading{
+  @apply text-xl font-normal mb-4;
+}
+
+.section{
+  @apply p-4 border-t;
+}
+
+.sub-section{
+  @apply mx-auto p-2;
+}
