@@ -75,6 +75,7 @@ const StateOfBeing = () => {
                     <p>singular feminine: थी</p>
                     <p>plural masculine: थे</p>
                     <p>plural feminine: थीं</p>
+                    <p><em>You</em> is an exception, it follows the plural case for both singular and plural.</p>
                 </div>
             </div>
         </div>
